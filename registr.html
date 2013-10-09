@@ -1,0 +1,54 @@
+<DOCKTYPE! html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Регистрация</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/registr.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row"> 
+			<div class="well col-md-3">
+		  		<div id="subscribe" class="animate form">
+                    <form method = "POST" autocomplete="on" role="form" action = "registr.php">
+                     <p>
+
+                     	<span class="add-on span1"><i class="glyphicon glyphicon-user"></i></span><input id="usernamesignup" name="username" type="text" placeholder="Имя пользователя" class="layer form1">
+                            
+                            <label for="usernamesignup" class="uname label1" >Не менее 5 символов</label>
+
+                     </p>
+
+                        <p>
+
+                            <span class="add-on span2"><i class="glyphicon glyphicon-lock"></i></span><input id="password" name="password"  type="password" placeholder="Введите пароль" class="layer form2">
+                            
+                            <label for="password" class="password label2" >Не менее 6 символов</label>
+
+                        </p>
+
+                        <p>
+
+                            <span class="add-on span3"><i class="glyphicon glyphicon-repeat"></i></span><input id="password_confirm" name="repassword"  type="password" placeholder="Подтвердите пароль" class="layer form3">
+
+                            <label for="password_confirm" class="password"></label>
+
+                   		</p>
+
+                    	<p>
+                            <span class="add-on span4"><i class="glyphicon glyphicon-envelope"></i></span><input id="email" name="email"  type="text" placeholder="e-mail" class="layer form4">
+                            <label for="email" class="email" ></label>
+                        </p>
+                    	<button type="submit" class="btn btn-block btn-custom "><h5>Зарегистрироваться</h5></button>
+                    </form>
+    			</div>
+			</div>
+ 		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
